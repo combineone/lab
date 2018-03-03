@@ -1,5 +1,8 @@
 package mutex
-import "sync"
+
+import (
+  "sync"
+)
 
 var (
   mtx sync.Mutex
