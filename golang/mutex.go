@@ -1,18 +1,20 @@
 package mutex
 
 import (
-  "sync"
+	"sync"
 )
 
 var (
-  mtx sync.Mutex
-  counter int
+	mtx     sync.Mutex
+	counter int
 )
 
 func Incrementor() {
-  for i := 0; i < 1000; i++ {
-    counter++
-  }
+	for i := 0; i < 1000; i++ {
+		counter++
+	}
 }
 
-go mutex.Incrementor()
+func main() {
+	go mtx.Incrementor()
+}
