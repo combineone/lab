@@ -6,6 +6,10 @@ This is my space for experimental work.
 
 [ C++ ]( /cxx )
 
+[ Haskell ]( /haskell )
+
+[ Erlang ]( /erlang )
+
 [ Go ]( /golang )
 
 [ Java ]( /java )
