@@ -6,7 +6,7 @@ class maiFunctor {
   public:
   double operator ()(int x)
   {
-    return x*2;
+    return sqrt(x);
   }
 };
 
